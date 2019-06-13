@@ -96,7 +96,6 @@ $(document).ready(function() {
 				e.preventDefault();
 				return false;
 			} else {
-				$("#chat-input").blur();
 				setUserResponse(text);
 				send(text);
 				e.preventDefault();
