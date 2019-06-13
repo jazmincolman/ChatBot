@@ -132,17 +132,7 @@ $(document).ready(function() {
 	function main(data) {
 		var action = data.result.action; //recupera la acción creada en el agente
 		var speech = data.result.fulfillment.speech; //recupera la respuesta
-		var incomplete = data.result.actionIncomplete;
-		//if(data.result.fulfillment.messages) { // if está el mensaje
-		//	if(data.result.fulfillment.messages.length > 0) { 
-		//		var suggestions = data.result.fulfillment.messages[1];
-		//	}
-		//}
-		switch(action) {
-			default:
-				setBotResponse(speech);
-				break;
-		}
+		setBotResponse(speech);
 	}
 
 	//------------------------------------ Muestra la respuesta del Bot en result_div -------------------------------------
