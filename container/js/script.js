@@ -4,8 +4,7 @@ $(document).ready(function() {
 	var baseUrl = "https://api.dialogflow.com/v1/";
 	var accessToken = "af6d22ca459f4437a268d04d5fc774b6";
 
-	//---------------------------------- Add dynamic html bot content(Widget style) ----------------------------
-	// You can also add the html content in html page and still it will work!
+	//---------------------------------- Add dynamic html bot content-------------------------------------
 	var mybot = '<div class="chatCont" id="chatCont">'+
 								'<div class="bot_profile">'+
 									'<img src="container/img/bb8.gif" class="bot_p_img">'+
