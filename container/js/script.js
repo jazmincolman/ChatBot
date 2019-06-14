@@ -130,9 +130,9 @@ $(document).ready(function() {
 
 	//------------------------------------------- Main --------------------------------------------------------
 	function main(data) {
-		//var action = data.result.action.weather; //recupera la acción creada en el agente
-		//var speech = data.result.fulfillment.speech; //recupera la respuesta
-		setBotResponse(output);
+		var action = data.result.action.weather; //recupera la acción creada en el agente
+		var speech = data.result.fulfillment.speech; //recupera la respuesta
+		setBotResponse(speech);
 	}
 
 	//------------------------------------ Muestra la respuesta del Bot en result_div -------------------------------------
