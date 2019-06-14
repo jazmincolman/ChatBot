@@ -130,7 +130,7 @@ $(document).ready(function() {
 
 	//------------------------------------------- Main --------------------------------------------------------
 	function main(data) {
-		var action = data.result.action.weather; //recupera la acción creada en el agente
+		var action = data.result.action; //recupera la acción creada en el agente
 		var speech = data.result.fulfillment.speech; //recupera la respuesta
 		setBotResponse(speech);
 	}
